@@ -32,13 +32,13 @@ while True:
                 details["email"].append(z)
             else:
                 print("Please do enter valid input!")
-            b=input("Enter your password:")
-            if len(b)>=8:
-                print("Password is accepted!")
-                details["password"].append(b)
-                print("Password is stored successfully in our server")
-            else:
-                print("Password length must be equal to or greater than 8 characters!")
+                b=input("Enter your password:")
+                if len(b)>=8:
+                    print("Password is accepted!")
+                    details["password"].append(b)
+                    print("Password is stored successfully in our server")
+                else:
+                    print("Password length must be equal to or greater than 8 characters!")
         elif n==2:
             print("Enter your login details below")
             print("---------------------------------------")
