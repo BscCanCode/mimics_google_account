@@ -53,6 +53,10 @@ I made this to:
 - Designing logic before writing code
 
 ---
+## 🔄 Updates:
+
+- ✅ Fixed a bug where it asked for a password even after an invalid email input during account creation.
+- 💡 Slight logic improvement in email validation flow
 
 ## Note
 - This README was crafted with the help of AI chatbots — part of my learning process, I kept it raw and honest to reflect my current journey in coding. Will refine as I grow!
